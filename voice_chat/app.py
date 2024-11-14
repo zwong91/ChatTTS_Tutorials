@@ -18,9 +18,6 @@ from cosyvoice.cli.cosyvoice import CosyVoice
 from cosyvoice.utils.file_utils import load_wav
 from funasr import AutoModel
 
-# the output sampling rate to 16000hz
-#use torchaudio.resample(22050, 16000)
-
 # Initialize OpenAI API
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 openai.api_key = OPENAI_API_KEY
