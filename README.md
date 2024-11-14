@@ -6,8 +6,8 @@
 
 ChatTTS源码：<https://github.com/2noise/ChatTTS>
 
-ChatTTS模型：<https://huggingface.co/2Noise/ChatTTS> ChatTTS
+ChatTTS模型：<https://huggingface.co/2Noise/ChatTTS> 
 
-在线网页Demo：<https://huggingface.co/spaces/lenML/ChatTTS-Forge>
+ChatTTS在线网页Demo：<https://huggingface.co/spaces/lenML/ChatTTS-Forge>
 
 ChatTTS二次开发项目合集：<https://github.com/libukai/Awesome-ChatTTS>
