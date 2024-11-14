@@ -11,10 +11,7 @@ from IPython.display import Audio
 chat = ChatTTS.Chat()
 
 # 加载默认下载的模型
-# chat.load_models(compile=False) # 设置为Flase获得更快速度，设置为True获得更佳效果
-
-# 趋动云：加载本地下载好的模型
-chat.load_models(compile=False, source='local', local_path='/gemini/pretrain') # 设置为Flase获得更快速度，设置为True获得更佳效果
+chat.load_models(compile=False) # 设置为Flase获得更快速度，设置为True获得更佳效果
 
 # 使用随机音色
 # speaker = chat.sample_random_speaker()
