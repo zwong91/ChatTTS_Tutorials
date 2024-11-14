@@ -4,3 +4,7 @@
 [submodule "cosyvoice"]
 	path = cosyvoice
 	url = https://github.com/FunAudioLLM/CosyVoice.git
+
+[submodule "Chattts"]
+	path = ChatTTS
+	url = https://github.com/2noise/ChatTTS.git
