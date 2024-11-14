@@ -19,7 +19,7 @@ chat.load_models(compile=False) # 设置为Flase获得更快速度，设置为Tr
 # 载入保存好的音色
 speaker = torch.load('speaker/speaker_5_girl.pth')
 
-def sb_tts(text, oral=3, laugh=3, bk=3):
+def sb_tts(text, oral=3, laugh=2, bk=3):
     
     '''
     输入文本，输出音频
